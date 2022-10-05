@@ -57,7 +57,7 @@ public:
 
     void add(int element)
     {
-        Node *newNode = new Node(element);a
+        Node *newNode = new Node(element);
         if (count == 0)
         {
             head = tail = newNode;
@@ -105,7 +105,7 @@ public:
         }
         else
         {
-            for (int i = 0; i < index - 2; i++)
+            for (int i = 0; i < index - 1; i++)
             {
                 pre = pre->next;
             }
